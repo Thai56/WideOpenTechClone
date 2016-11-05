@@ -82,11 +82,11 @@ float: left;
   }
 }
 .main-content {
-  background: lightgray;
+  background: #F0F0F0;
   width: 100%;
 font-family: 'Open Sans', sans-serif;
 font-size: 25px;
-color:grey;
+color:#406671;
 
 }
 .desc-text {
@@ -116,12 +116,12 @@ color:grey;
 .image-container-text {
   font-size: 45px;
   /*font-weight: bol;*/
-  color:gray;
+  color:#406671;
   text-align: center;
 
 }
 .super {
-  color:#bbea3a;
+  color:#BDD436;
   font-weight: bolder;
 }
 .services-container {
@@ -146,7 +146,7 @@ width: 100%;
 .service-text {
   font-family: 'Open Sans', sans-serif;
   font-size: 20px;
-  color:gray;
+  color:#406671;
   width:79%;
   /*height:121px;*/
   border:1px solid red;
@@ -174,12 +174,35 @@ width: 100%;
     flex-flow: column;
     justify-content: center;
     width:33%;
-    border-left:1px solid gray;
+    border-left:1px solid #406671;
     float:left;
   }
   .service-text {
     width: 316px;
   }
+}
+.learn-more-container {
+  width: 100%;
+  background:#F0F0F0;
+  padding:15px;
+}
+.learn-more-top-text {
+font-family: 'Open Sans', sans-serif;
+text-align: center;
+color:#406671;
+background: white;
+}
+#how {
+  font-size: 40px;
+  color:#406671;
+  text-align: center;
+
+}
+#help {
+  font-weight:bolder;
+}
+.ways {
+  font-size: 25px;
 }
  /*@media (min-width:700px) {
    .hamburger {
