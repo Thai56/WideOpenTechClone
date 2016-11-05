@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald:300,400');
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Mono');
 html , body {
   box-sizing: border-box;
 }
@@ -10,7 +11,6 @@ html , body {
 
 body {
   margin:0;
-  padding:0;
 }
 .lato {
   font-family: 'Lato', sans-serif;
@@ -143,7 +143,7 @@ width: 100%;
 .img-lightbulb {
   height:222px;
   width: 142px;
-  border:2px solid black;
+  /*border:2px solid black;*/
   background: url('../IMG/sprite_home.png');
   background-position-y:587px;
   background-position-x:-303px;
@@ -154,12 +154,12 @@ width: 100%;
   color:#406671;
   width:79%;
   /*height:121px;*/
-  border:1px solid red;
+  /*border:1px solid red;*/
   text-align: center;
 }
 .learn-service {
   width:44%;
-  border: 1px solid green;
+  /*border: 1px solid green;*/
   text-align: center;
   /*height:121px;*/
   font-family: 'Open Sans', sans-serif;
@@ -179,6 +179,7 @@ width: 100%;
   width: 100%;
   background:#F0F0F0;
   padding:15px;
+  padding-bottom: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -224,6 +225,7 @@ justify-content: center;}
   /*align-items: center;*/
   justify-content: center;
   margin-top: 82px;
+  margin-bottom: 58px;
 }
 .contact-btn {
   /*width: 753px;
@@ -300,11 +302,39 @@ justify-content: center;}
   background-size: cover;
 }
 .contact-us-container {
-  position: relative;
   width: 100%;
   background: #6A787C;
   height: 415px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+.email-btn {
+  height: 48px;
+  width: 148px;
+  background: #BDD436;
+  border-radius: 24px;
+  margin: auto;
+  margin-top: 48px;
+  text-align: center;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer {
+  height: 64px;
+  width: 100%;
+  background: white;
+  font-family: 'Roboto Mono', monospace;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #let-Talk {
   color:white;
   font-size: 24px;
@@ -315,19 +345,19 @@ justify-content: center;}
   margin: auto;
   margin-top: 24px;
   margin-bottom: 24px;
-  background: white;
+  background: #BDD436;
 }
 #like {
   font-size: 16px;
   color: white;
 }
-@media (min-width:768px){
+/*@media (min-width:768px){
 
   .contact-btn {
     height:60px;
     width: 383px;
   }
-}
+}*/
 @media (min-width:1024px) {
   .service {
     display: flex;
@@ -358,7 +388,6 @@ justify-content: center;}
     align-items: center;
     justify-content:center;
   }
-
 
 }
  /*@media (min-width:700px) {
