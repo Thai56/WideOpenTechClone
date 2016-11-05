@@ -167,6 +167,7 @@ width: 100%;
   .service-text {
     width:50%;
   }
+
 }
 @media (min-width:1024px) {
   .service {
@@ -231,6 +232,35 @@ justify-content: center;}
 .lower-text {
   font-size: 16px;
   color:#406671;
+}
+.contact-btn-container {
+  width: 100%;
+  background: #F0F0F0;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+  margin-top: 82px;
+}
+.contact-btn {
+  /*width: 753px;
+  height:80px;*/
+  height:60px;
+  width: 383px;
+  border-radius: 50px;
+  background: #BDD436;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+@media (min-width:768px){
+
+  .contact-btn {
+    height:60px;
+    width: 383px;
+  }
 }
  /*@media (min-width:700px) {
    .hamburger {
