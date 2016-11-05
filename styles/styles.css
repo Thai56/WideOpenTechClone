@@ -189,6 +189,9 @@ width: 100%;
   .learn-more-top-text {
     width: 334px;
   }
+  .affiliate-image-size {
+    width:30%;
+  }
 
 }
 .learn-more-container {
@@ -255,6 +258,64 @@ justify-content: center;}
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
+.affiliates-container {
+  width:100;
+  background:white;
+}
+.affiliates-text {
+  width: 100%;
+  height: 120px;
+ text-align: center;
+ font-family: 'Oswald', sans-serif;
+ font-size: 40px;
+ color: #5F5A47;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.affiliate-image-size {
+  width:100%;
+  height:400px;
+}
+.after-contact {
+  background: url('../IMG/after-contact.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#america-matress {
+  background: url('../IMG/america-mattress.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+#VG {
+  background: url('../IMG/VG.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#NCMA {
+  background: url('../IMG/NCMA.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#KF {
+  background: url('../IMG/KF.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#TS {
+  background: url('../IMG/TS.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
 @media (min-width:768px){
 
   .contact-btn {
