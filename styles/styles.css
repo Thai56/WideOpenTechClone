@@ -180,29 +180,57 @@ width: 100%;
   .service-text {
     width: 316px;
   }
+  .learn-more-box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .learn-more-top-text {
+    width: 334px;
+  }
+
 }
 .learn-more-container {
   width: 100%;
   background:#F0F0F0;
   padding:15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
 .learn-more-top-text {
 font-family: 'Open Sans', sans-serif;
 text-align: center;
 color:#406671;
 background: white;
-}
+margin: 10px;
+font-size: 24px;
+border-radius: 4px;
+height:160px;
+display: flex;
+flex-direction: column;
+justify-content: center;}
 #how {
   font-size: 40px;
   color:#406671;
   text-align: center;
+  background:#F0F0F0;
+  font-family: 'Open Sans', sans-serif;
 
 }
 #help {
   font-weight:bolder;
 }
-.ways {
+#ways {
   font-size: 25px;
+  background: #F0F0F0;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+.lower-text {
+  font-size: 16px;
+  color:#406671;
 }
  /*@media (min-width:700px) {
    .hamburger {
