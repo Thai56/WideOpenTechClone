@@ -39,7 +39,9 @@ body {
   height: 60vh;
   width: 100%;
   margin-top: 0;
-  position: relative;
+  /*position: relative;*/
+  display: flex;
+  align-items: center;
 }
 #title {
   width:200px;
@@ -55,8 +57,25 @@ body {
   font-family: 'Oswald', sans-serif;
   position: relative;
 }
+.center-block {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+}
+.solution-container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-content: space-around;
+}
+.brick-container {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+}
 .brick {
-  height:25px;
+  height:8px;
   width: 100px;
   background: white;
 }
@@ -64,11 +83,21 @@ body {
   margin: auto;
   width: 100%;
 }
-.digital {
+/*.digital {
 float: left;
+}*/
+#digital {
+  font-size: 21px;
+  color:white;
 }
 #workshop {
-  clear: both;
+  font-size: 90px;
+  color:white;
+  font-weight: 300;
+}
+#solution {
+  font-size: 16px;
+  color: white;
 }
 .pic-center {
   width: 100%;
@@ -147,6 +176,22 @@ width: 100%;
   background: url('../IMG/sprite_home.png');
   background-position-y:587px;
   background-position-x:-303px;
+}
+#way-point {
+  height:222px;
+  width: 89px;
+  /*border:2px solid black;*/
+  background: url('../IMG/sprite_home.png');
+  background-position-y:606px;
+  background-position-x:-223px;
+}
+#power {
+  height:222px;
+  width: 109px;
+  /*border:2px solid black;*/
+  background: url('../IMG/sprite_home.png');
+  background-position-y:606px;
+  background-position-x:-117px;
 }
 .service-text {
   font-family: 'Open Sans', sans-serif;
@@ -358,6 +403,11 @@ justify-content: center;}
     width: 383px;
   }
 }*/
+@media (min-width:770px) {
+  #workshop {
+    font-size: 135px;
+  }
+}
 @media (min-width:1024px) {
   .service {
     display: flex;
@@ -387,6 +437,9 @@ justify-content: center;}
     display: flex;
     align-items: center;
     justify-content:center;
+  }
+  #digital {
+    float: left;
   }
 
 }
