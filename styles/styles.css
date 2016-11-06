@@ -109,6 +109,23 @@ float: left;
   font-size: 16px;
   color: white;
 }
+.button-container {
+  width: 100%;
+  margin-top: 50px;
+}
+.learn-more-button {
+  height: 50px;
+  width: 370px;
+  color: white;
+  /*font-family: 'Oswald', sans-serif;*/
+  border-radius: 50px;
+  margin: auto;
+  background: #BDD436;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .pic-center {
   width: 100%;
   display:block;
