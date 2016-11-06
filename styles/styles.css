@@ -25,10 +25,17 @@ body {
 .hamburger {
   height:50px;
   width: 50px;
-  background: black;
+  /*background: black;*/
   position: absolute;
   right:3px;
   top:12px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.HAM {
+  background: gray;
+  height: 3px;
+  width: 80%;
 }
 
 .top-home-main {
