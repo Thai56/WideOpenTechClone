@@ -16,11 +16,13 @@ body {
   font-family: 'Lato', sans-serif;
   text-align: center;
 }
+/*HEADER*/
+/*=============================================================*/
+
 .nav-wrapper {
   width:100%;
   height: 75px;
   background: white;
-
 }
 .hamburger {
   height:50px;
@@ -63,7 +65,6 @@ body {
 .font-container {
   width: 100%;
   height: 260px;
-  /*background: blue;*/
   font-family: 'Oswald', sans-serif;
   position: relative;
 }
@@ -74,10 +75,10 @@ body {
   justify-content: center;
 }
 .solution-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-around;
 }
 .brick-container {
   display: flex;
@@ -93,9 +94,6 @@ align-content: space-around;
   margin: auto;
   width: 100%;
 }
-/*.digital {
-float: left;
-}*/
 #digital {
   font-size: 21px;
   color:white;
@@ -117,7 +115,6 @@ float: left;
   height: 50px;
   width: 370px;
   color: white;
-  /*font-family: 'Oswald', sans-serif;*/
   border-radius: 50px;
   margin: auto;
   background: #BDD436;
@@ -137,18 +134,15 @@ float: left;
 .pic-center div {
   text-align: center;
 }
-@media (min-width:996px) {
-  .hamburger {
-    display: none;
-  }
-}
+/*MAIN CONTENT*/
+/*=============================================================*/
+
 .main-content {
   background: #F0F0F0;
   width: 100%;
-font-family: 'Open Sans', sans-serif;
-font-size: 25px;
-color:#406671;
-
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color:#406671;
 }
 .desc-text {
   width:100%;
@@ -165,8 +159,6 @@ color:#406671;
   width:112px;
   height: 112px;
   background: url('../IMG/sprite_home.png');
-  /*border: 2px solid black;*/
-  /*background-position: -22px -100px;*/
   background-position-y:557px;
   background-position-x:-5px;
 }
@@ -176,7 +168,6 @@ color:#406671;
 }
 .image-container-text {
   font-size: 45px;
-  /*font-weight: bol;*/
   color:#406671;
   text-align: center;
 
@@ -185,9 +176,12 @@ color:#406671;
   color:#BDD436;
   font-weight: bolder;
 }
+/*SERVICES*/
+/*=============================================================*/
+
 .services-container {
-background: white;
-width: 100%;
+  background: white;
+  width: 100%;
 }
 .service {
   padding:40px;
@@ -199,7 +193,6 @@ width: 100%;
 .img-lightbulb {
   height:222px;
   width: 142px;
-  /*border:2px solid black;*/
   background: url('../IMG/sprite_home.png');
   background-position-y:587px;
   background-position-x:-303px;
@@ -207,7 +200,6 @@ width: 100%;
 #way-point {
   height:222px;
   width: 89px;
-  /*border:2px solid black;*/
   background: url('../IMG/sprite_home.png');
   background-position-y:606px;
   background-position-x:-223px;
@@ -215,7 +207,6 @@ width: 100%;
 #power {
   height:222px;
   width: 109px;
-  /*border:2px solid black;*/
   background: url('../IMG/sprite_home.png');
   background-position-y:606px;
   background-position-x:-117px;
@@ -225,28 +216,17 @@ width: 100%;
   font-size: 20px;
   color:#406671;
   width:79%;
-  /*height:121px;*/
-  /*border:1px solid red;*/
   text-align: center;
 }
 .learn-service {
   width:44%;
-  /*border: 1px solid green;*/
   text-align: center;
-  /*height:121px;*/
   font-family: 'Open Sans', sans-serif;
   color:#bbea3a;
   font-size:21px;
   font-weight:bold;
   margin:20px
 }
-@media(min-width:708px){
-  .service-text {
-    width:50%;
-  }
-
-}
-
 .learn-more-container {
   width: 100%;
   background:#F0F0F0;
@@ -256,19 +236,18 @@ width: 100%;
   flex-direction: column;
   justify-content: space-around;
 }
-
 .learn-more-top-text {
-font-family: 'Open Sans', sans-serif;
-text-align: center;
-color:#406671;
-background: white;
-margin: 10px;
-font-size: 24px;
-border-radius: 4px;
-height:160px;
-display: flex;
-flex-direction: column;
-justify-content: center;}
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color:#406671;
+  background: white;
+  margin: 10px;
+  font-size: 24px;
+  border-radius: 4px;
+  height:160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;}
 #how {
   font-size: 40px;
   color:#406671;
@@ -283,24 +262,25 @@ justify-content: center;}
 #ways {
   font-size: 25px;
   background: #F0F0F0;
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
 }
 .lower-text {
   font-size: 16px;
   color:#406671;
 }
+/*CONTACT_US-CONTAINER*/
+/*=============================================================*/
+
 .contact-btn-container {
   width: 100%;
   background: #F0F0F0;
   display: flex;
-  /*align-items: center;*/
   justify-content: center;
   margin-top: 82px;
   margin-bottom: 58px;
 }
 .contact-btn {
-  /*width: 753px;
   height:80px;*/
   height:60px;
   width: 383px;
@@ -313,6 +293,9 @@ justify-content: center;}
   color: white;
   font-family: 'Open Sans', sans-serif;
 }
+/*AFFILIATES*/
+/*=============================================================*/
+
 .affiliates-container {
   width:100;
   background:white;
@@ -320,14 +303,14 @@ justify-content: center;}
 .affiliates-text {
   width: 100%;
   height: 120px;
- text-align: center;
- font-family: 'Oswald', sans-serif;
- font-size: 40px;
- background: white;
- color: #5F5A47;
- display: flex;
- align-items: center;
- justify-content: center;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  background: white;
+  color: #5F5A47;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .affiliate-image-size {
   width:100%;
@@ -347,7 +330,6 @@ justify-content: center;}
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
 #VG {
   background: url('../IMG/VG.png');
@@ -373,6 +355,8 @@ justify-content: center;}
   background-position: center;
   background-size: cover;
 }
+/*EMAIL-CONTAINER*/
+/*=============================================================*/
 .contact-us-container {
   width: 100%;
   background: #6A787C;
@@ -396,6 +380,8 @@ justify-content: center;}
   align-items: center;
   justify-content: center;
 }
+/*FOOTER*/
+/*=============================================================*/
 .footer {
   height: 64px;
   width: 100%;
@@ -443,20 +429,30 @@ justify-content: center;}
   float: left;
   display: none;
 }
-
-/*@media (min-width:768px){
-
-  .contact-btn {
-    height:60px;
-    width: 383px;
+/*708PX*/
+/*=============================================================*/
+@media(min-width:708px){
+  .service-text {
+    width:50%;
   }
-}*/
+
+}
+/*770PX*/
+/*=============================================================*/
 @media (min-width:770px) {
+
   #workshop {
     font-size: 135px;
   }
 }
-@media (min-width:1024px) {
+/*996PX*/
+/*==========================================================*/
+@media (min-width:996px) {
+
+  .hamburger {
+    display: none;
+  }
+
   .service {
     display: flex;
     flex-flow: column;
@@ -465,33 +461,39 @@ justify-content: center;}
     border-left:1px solid #406671;
     float:left;
   }
+
   .service-text {
     width: 316px;
   }
+
   .learn-more-box-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
+
   .learn-more-top-text {
     width: 334px;
   }
+
   .affiliate-image-size {
     width:33%;
     float:left;
   }
+
   .affiliates-image-contaner {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content:center;
   }
+
   #digital {
     float: left;
   }
+
   .hide-menu {
     width:60%;
-    /*background: gray;*/
     height: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -499,13 +501,11 @@ justify-content: center;}
     align-items: center;
     float: right;
   }
-  .nav-wrapper {
-    /*background: #5F5A47;*/
-    /*background-color:transparent;*/
-  }
+
   .locations-container {
     width: 100%;
   }
+
   .Wilmington {
     display: inline-block;
 
@@ -515,19 +515,5 @@ justify-content: center;}
 
   }
 }
- /*@media (min-width:700px) {
-   .hamburger {
-     background: red;
-   }
-   .nav {
-     display:block;
-   }
- }
- @media (min-width:900px){
-   .nav {
-     display: none;
-   }
-   .hamburger {
-     background: yellow;
-   }
- }*/
+/*END*/
+/*==========================================================*/
